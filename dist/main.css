@@ -1,0 +1,51 @@
+html, body, figure, figcaption, ul, li, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-align: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+    color:gray;
+}
+  
+
+ul {
+    list-style: none;
+    margin: 30px 10px;
+    width: 200px;
+    display: inline-block;
+    border-bottom: 10px solid black;
+}
+
+li {
+    height: 50px;
+    width: 0%;
+    margin: 10px auto;
+    border-radius: 30px;
+    background: gray;
+}
+
+.disk_3 {
+    width: 90%;
+}
+
+.disk_2 {
+    width: 60%;
+}
+
+.disk_1 {
+    width: 30%;
+}
+
+.clicked{
+    border-color:blue;
+}
